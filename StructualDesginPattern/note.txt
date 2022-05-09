@@ -1,0 +1,7 @@
+structural design pattern tập chung vào cung cấp các cách để có mối quan hê giữa các entities 
+
+Proxy Pattern : cho phép chúng ta điều khiển quyền truy cập tới object khác 
+
+Decorator: để tăng cường các behavior của 1 object đã tồn tại 
+
+Adapter: là 1 pattern cho phép chúng ta truy cập vào 1 func của 1 object với 1 interface khác 

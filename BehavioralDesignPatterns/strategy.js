@@ -1,0 +1,1 @@
+// Strategy pattern cho phép 1 object,được gọi là contexxt, dể hỗ trợ sự khác biệt trong logic bởi extrating variable parts và 1 cái riêng biệt, có thể hoán đổi object.

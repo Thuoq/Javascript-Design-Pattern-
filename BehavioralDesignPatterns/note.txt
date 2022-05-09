@@ -1,0 +1,10 @@
+Stategy pattern, nó sẽ giúp chúng ta thay đổi 1 phần của 1 component để phù hợp với những cái chúng ta cần 
+
+State pattern, nó sẽ cho phép chúng ta thay đổi hành vi của 1 component dựa trên state 
+
+
+Template pattern, nó sẽ cho phép chúng ta sử dụng lại cấu trúc của 1 component và định nghĩa lại cái mới 
+
+Middleware pattern, nó sẽ cho phép chúng ta định nghĩa 1 module chain của các processing steps
+
+Command pattern trong đó hiện thực hoá những thông tin cần thiết để thực hiện một quy trình,cho phép những thông tin đó dễ dàng được chuyển giao, lưu trữ và xử lý 
