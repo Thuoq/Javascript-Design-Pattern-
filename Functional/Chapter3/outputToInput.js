@@ -8,13 +8,11 @@ function words(str) {
 }
 
 function unique(list) {
-  return new Set(list)
+  return Array.from(new Set(list));
 }
 var text = "To compose two functions together, pass the output of the first function call as the input of the  second function call.";
 var wordsFound = words(text);
-console.log(wordsFound.length)
 var wordUsed = unique(wordsFound)
-console.log(wordUsed.size)
 
 function compose(fnc1, fnc2) {
   return function composed(origValue) {
@@ -22,4 +20,10 @@ function compose(fnc1, fnc2) {
   }
 }
 var wordUsed = compose(unique, words)
-console.log(wordUsed(text).size)
+// console.log(wordUsed(text).size)
+
+module.exports = {
+  text,
+  unique,
+  words
+}
