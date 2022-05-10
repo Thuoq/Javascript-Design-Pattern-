@@ -47,3 +47,5 @@ function compose(...fns) {
 }
 // es6 version 
 var compose = (...fns) => result => [...fns].reverse().reduce((result, fn) => fn(result), result)
+
+// advantage of this implementation that code is 
